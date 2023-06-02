@@ -1,0 +1,21 @@
+html {
+    scroll-snap-type: y mandatory;   
+}
+
+html::-webkit-scrollbar {
+    display: none;
+}
+
+.section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    top: 0px;
+    scroll-snap-align: center;
+    scroll-snap-stop: always;
+    z-index: 998;
+}
