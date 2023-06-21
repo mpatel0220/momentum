@@ -1,5 +1,3 @@
-# MomentumX
-
 ## How would I like to improve the world?
 
 Track the progress of people's work in a more efficient way.
